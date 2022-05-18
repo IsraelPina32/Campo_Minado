@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+table{
+    width: 600px;
+    height: 600px;
+    border: solid black;
+}
+
+td{
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid rgb(15, 12, 12);
+    background: rgb(86, 59, 93);
+}
+
+.visivel{
+    visibility: hidden;
+}
+
